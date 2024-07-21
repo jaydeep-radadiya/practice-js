@@ -1,4 +1,4 @@
-function pattern6() {
+function pattern6(n) {
   for (let row = 1; row <= 2 * n - 1; row++) {
     let k = row >= n ? 2 * n - row : row;
     let s = "";
